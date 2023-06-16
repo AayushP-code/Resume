@@ -1,0 +1,125 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navContent {
+    border-collapse: collapse;
+    margin-right: 5px
+}
+
+.navContent td:first-child {
+    border-right: solid #D1D0CE 2px;
+}
+
+h4 {
+    font-size: 13px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    border: 0px 0px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-family: "Courier New";
+    color: #1d1d1d;
+    background: white;
+    max-width: 1263px;
+}
+
+p,
+th,
+ul {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+}
+
+
+section {
+    padding: 40px 0;
+}
+
+.image {
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("wall2.jpg");
+
+}
+
+.text {
+    background: #fff;
+    position: relative;
+}
+
+.text::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150%;
+    height: 125%;
+    background: #ffffff;
+    rotate: -3deg;
+    translate: -50% -55%;
+}
+
+
+
+
+.table1 {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+
+}
+
+.table1 td,
+th {
+    width: 1000px;
+    text-align: center;
+}
+
+nav,
+footer {
+    width: 100%;
+    margin-bottom: auto;
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+.navContent td {
+    width: 100px;
+    text-align: center;
+}
+
+.rounded {
+    border: #1d1d1d 2px solid;
+}
+
+h4:hover {
+    opacity: 70%;
+    font-weight: bold;
+}

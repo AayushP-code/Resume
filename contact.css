@@ -1,0 +1,26 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+body {
+    background: url("wall2.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+
+table td {
+    width: 500px;
+}

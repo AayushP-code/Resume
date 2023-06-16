@@ -1,0 +1,51 @@
+.heading {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 130px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.Paragraph {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 120px;
+}
+
+hr {
+    position: relative;
+    width: 30%;
+    height: 20px;
+    margin: auto;
+}
+
+.content {
+    background-image: url(wall3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.slideShow {
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+}
+
+.navbar {
+    padding-bottom: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
